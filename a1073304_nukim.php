@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>高大資管營問卷調查</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <form action="nukim.php" method="POST">
+    <font color="red" face="微軟正黑體"><center><h1>歡迎來到資管營問卷調查網站</h1></center></font>
+    <font color=#F22654 face="微軟正黑體"><br><a href="https://www.facebook.com/nukimcamp"><img src="https://tse2.mm.bing.net/th?id=OIP.qx45QBgvsA2OSGXUt6dXZQHaHa&pid=Api&P=0&w=300&h=300" width="400px" border="1px"></a><i>點擊圖片可以連到高大資管營粉專喔!</i></br>
+    </font>
+     
+     <br><left><font size="5" color="blue">以下將會詢問您幾個簡單的問題</font></left>
+     <br><B><h4>Q1：</h4></B>
+     <form>
+     請輸入名字:<input type="text" placeholder="Chinese Only" name="sname" required>
+     <br><B><h4>Q2：</h4></B>
+     請選擇性別:<input type="radio" name="sex" value="male">male
+              <input type="radio" name="sex" value="female">female
+              <input type="radio" name="sex" value="secret">secret
+     <br><B><h4>Q3：</h4></B>
+     請選擇您的出生年/月/日:<input type="date" name="birth">
+     <br><B><h4>Q4：</h4></B>
+     請輸入身份證字號：<input type="password" name="id">
+     <br><B><h4>Q5：</h4></B>
+     請填寫您的郵件信箱:<input type="email" name="mail" id="">
+     <br><B><h4>Q6：</h4></B>
+     請填寫您的手機號碼:<textarea rows="1" cols="15" name="number">
+   
+    </textarea>
+     <br><B><h4>Q7：</h4></B>
+     請填寫您的飲食習慣:
+    <input type="radio" name="eat" value="meat">素食
+    <input type="radio" name="eat" value="vegetable">葷食
+    <br><B><h4>Q8：</h4></B>
+     請選擇居住區域:<select name="city[]" multiple>
+    	<option value="北部">北部</option>
+    	<option value="中部">中部</option>
+    	<option value="南部" selected>南部</option>
+    	<option value="東部">東部</option>
+    	</select>
+    <br><B><h4>Q9：</h4></B>
+    請選擇衣服尺寸大小:<select name="size">
+    	<option value="XS">XS</option>
+    	<option value="S">S</option>
+    	<option value="M">M</option>
+    	<option value="L">L</option>
+    	<option value="XL">XL</option>
+    	</select>
+    <br><B><h4>Q10：</h4></B>
+    請問您透過甚麼管道得知此活動：
+        <input type="checkbox" name="way[]" value="facebook">粉絲專業
+        <input type="checkbox" name="way[]" value="post">海報
+        <input type="checkbox" name="way[]" value="family">親友告知
+        <input type="checkbox" name="way[]" value="internet">網路上主動查詢
+    <br><B><h4>Q11：</h4></B>
+     請問您是否有特殊疾病史：
+        <input type="radio" name="sick" value="yes" >是
+        <input type="radio" name="sick" value="no">否
+        <p><textarea rows="1" cols="30" name="please">若有，麻煩請告知</textarea></p>
+    <br><B><h4>Q12：</h4></B>
+    有任何評論想要告訴我們嗎?
+        <p><textarea rows="3" cols="30" name="comment"></textarea></p>
+    <br><input type="reset" value="clear">
+    <input type="submit" value="send data">
+    <p><i><font size="15" color="#F29726" face="標楷體">非常感謝您的填寫，期待您的蒞臨～</font></i></p>
+    <p><font size="4" color="#F34025" face="AR DESTINE">tel：0949886157</br>
+    	                                                 per：Mrs.Lin</br></font></p>
+    </form>
+</body>
+</html>
